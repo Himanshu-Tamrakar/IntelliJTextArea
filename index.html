@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .IntelliTextEditor {
+            background-color: #f0f2f4;
+            padding: 5px;
+        }
+
+        .IntelliTextEditor-keyword {
+            color: #00008b;
+        }
+
+        .IntelliTextEditor-function {
+            color: #00008b;
+        }
+
+        .IntelliTextEditor-variable {
+            color: #757500;
+        }
+
+        .IntelliTextEditor-placehoder {
+            color: #767676;
+            cursor: pointer;
+        }
+
+        .IntelliTextEditor-target {
+            color: #8b008b;
+        }
+
+        .IntelliTextEditor-argument {
+            color: #8b008b;
+        }
+
+        .IntelliTextEditor-marker {
+            color: #00008b;
+        }
+
+        span.highlight {
+            background-color: yellow;
+        }
+
+        /* Suggestion List autocomplete */
+
+        #wrapper-intelli-vhn-cd-007 {
+            position: absolute;
+            top: 295px;
+            left: 45.234px;
+        }
+
+        .autocomplete {
+            background-color: #fff;
+            padding: 8px 0;
+            position: absolute;
+            z-index: 100;
+            overflow: auto;
+            max-height: 300px;
+            width: 400px;
+            max-width: 400px;
+            scroll-behavior: smooth;
+            border-radius: 0 0 4px 4px;
+            box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.16);
+        }
+
+        li {
+            display: block;
+            padding: 4px 8px;
+            font-size: 14px;
+            color: #253858;
+        }
+
+        .active {
+            background-color: #2883f31a;
+        }
+
+        li:hover {
+            background-color: #f4f5f7;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div contenteditable="true" spellcheck="false" isdirty="false" id="uniqName_11_8" class="IntelliTextEditor refreshing" widgetid="uniqName_11_8" style="overflow: auto;" refreshcount="1">
+
+        <!-- <span class="IntelliTextEditor-function">
+            max(
+            <span class="IntelliTextEditor-argument">'argumant1'</span>
+            <span class="IntelliTextEditor-separator">,</span>
+            <span class="IntelliTextEditor-argument">'argumant1'</span>
+            )
+        </span>
+
+        <span class="IntelliTextEditor-function">
+            <span class="IntelliTextEditor-func-name-start">max(</span>
+            <span class="IntelliTextEditor-argument">'argumant1'</span>
+            <span class="IntelliTextEditor-separator">,</span>
+            <span class="IntelliTextEditor-argument">'argumant1'</span>
+            <span class="IntelliTextEditor-func-name-end">)</span>
+        </span> -->
+
+        <span>
+            <br>
+        </span>
+
+        <span class="IntelliTextEditor-function">sum(</span>
+        <span class="IntelliTextEditor-function">max(</span>
+        <span class="IntelliTextEditor-argument">'argumant1'</span>
+        <span class="IntelliTextEditor-separator">,</span>
+        <span class="IntelliTextEditor-argument">'argumant1'</span>
+        <span class="IntelliTextEditor-function">)</span>
+
+        <!-- <span class="IntelliTextEditor-function">
+            <span class="IntelliTextEditor-func-name-start">max(</span>
+            <span class="IntelliTextEditor-argument">'argumant1'</span>
+            <span class="IntelliTextEditor-separator">,</span>
+            <span class="IntelliTextEditor-argument">'argumant1'</span>
+            <span class="IntelliTextEditor-func-name-end">)</span>
+        </span> -->
+
+        <span class="IntelliTextEditor-separator">,</span>
+        <span class="IntelliTextEditor-argument">'argumant1'</span>
+        <span class="IntelliTextEditor-function">)</span>
+
+        <span>&nbsp;</span>
+
+        <!-- <span>
+            <br>
+        </span>
+
+        <span>
+            <br>
+        </span>
+
+        <span>
+            <br>
+        </span>
+
+        <span class="IntelliTextEditor-keyword">for</span>
+        <span> </span>
+        <span class="IntelliTextEditor-keyword">each</span>
+        <span> </span>
+        <span class="IntelliTextEditor-target">race</span>
+        <span> </span>
+        <span class="IntelliTextEditor-keyword">called</span>
+        <span> </span>
+        <span class="IntelliTextEditor-variable">'the race'</span>
+        <span> </span>
+        <span class="IntelliTextEditor-keyword">,</span>
+        <span> </span>
+        <span class="IntelliTextEditor-keyword">in</span>
+        <span> </span>
+        <span class="IntelliTextEditor-variable">'the races'</span>
+        <span><br></span>
+        <span class="IntelliTextEditor-marker">if</span>
+        <span><br></span>
+        <span> the area of </span>
+        <span class="IntelliTextEditor-variable">'the runner'</span>
+        <span> is the area of </span>
+        <span class="IntelliTextEditor-variable">'the race'</span>
+        <span><br></span>
+        <span> </span>
+        <span class="IntelliTextEditor-marker">and</span>
+        <span> the category of </span>
+        <span class="IntelliTextEditor-variable">'the race'</span>
+        <span> is </span>
+        <span class="IntelliTextEditor-variable">'the runner category'</span>
+        <span><br></span>
+        <span class="IntelliTextEditor-marker">then</span>
+        <span><br></span>
+        <span> </span>
+        <span class="IntelliTextEditor-marker">add</span>
+        <span> </span>
+        <span class="IntelliTextEditor-string">"Here is a race that we recommend for you: "</span>
+        <span> + the name of </span>
+        <span class="IntelliTextEditor-variable">'the race'</span>
+        <span> +</span>
+        <span class="IntelliTextEditor-string">" . Are you in?"</span>
+        <span> </span>
+        <span class="IntelliTextEditor-marker">to</span>
+        <span> </span>
+        <span class="IntelliTextEditor-variable">decision</span>
+        <span>;</span>
+        <span><br></span> -->
+    </div>
+
+
+
+    <div id="wrapper-intelli-vhn-cd-007">
+        <ul id="intelli-vhn-cd-007" class="autocomplete">
+
+        </ul>
+    </div>
+
+    <script src="./funtions.js"></script>
+    <script src="./attributes.js"></script>
+    <script src="main.js"></script>
+
+    <script>
+        console.log(window.FUNCTIONS);
+        console.log(window.ATTRIBUTES);
+    </script>
+
+
+
+    <!-- <p>I <strong>insist</strong> that you <strong>try</strong> selecting the <strong>strong words</strong>.</p>
+    <button>Select strong words</button> -->
+
+</body>
+
+</html>
