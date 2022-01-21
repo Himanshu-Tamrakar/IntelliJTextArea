@@ -1,3 +1,5 @@
+
+
 var FUNCTIONS = [
     {
         'id': '1635158588469',
@@ -6,7 +8,8 @@ var FUNCTIONS = [
         'syntax': 'DATEDIFFDAYS(datetime, datetime)',
         'type': 'FUNCTION',
         'returnType': 'number',
-        'description': 'Returns the difference between dates in number of days'
+        'description': 'Returns the difference between dates in number of days',
+        'innerHTML': '<span class="IntelliTextEditor-function">DATEDIFFDAYS(<span class="IntelliTextEditor-argument">\'datetime\'</span><span class="IntelliTextEditor-separator">,</span><span class="IntelliTextEditor-argument">\'datetime\'</span>)</span>'
     },
     {
         'id': '1635158588471',
@@ -15,7 +18,8 @@ var FUNCTIONS = [
         'syntax': 'DATEDIFFYEARS(datetime, datetime)',
         'type': 'FUNCTION',
         'returnType': 'number',
-        'description': 'Returns the difference between dates in number of years'
+        'description': 'Returns the difference between dates in number of years',
+        'innerHTML': '<span class="IntelliTextEditor-function">DATEDIFFYEARS(<span class="IntelliTextEditor-argument">\'datetime\'</span><span class="IntelliTextEditor-separator">,</span><span class="IntelliTextEditor-argument">\'datetime\'</span>)</span>'
     },
     {
         'id': '1635158588464',
@@ -24,7 +28,8 @@ var FUNCTIONS = [
         'syntax': 'FACTORIAL(Number)',
         'type': 'FUNCTION',
         'returnType': 'number',
-        'description': 'Returns the factorial of the number'
+        'description': 'Returns the factorial of the number',
+        'innerHTML': '<span class="IntelliTextEditor-function">FACTORIAL(<span class="IntelliTextEditor-argument">\'Number\'</span>)</span>'
     },
     {
         'id': '1635158588470',
@@ -33,7 +38,8 @@ var FUNCTIONS = [
         'syntax': 'DATEDIFFMONTHS(datetime, datetime)',
         'type': 'FUNCTION',
         'returnType': 'number',
-        'description': 'Returns the difference between dates in number of months'
+        'description': 'Returns the difference between dates in number of months',
+        'innerHTML': '<span class="IntelliTextEditor-function">DATEDIFFMONTHS(<span class="IntelliTextEditor-argument">\'datetime\'</span><span class="IntelliTextEditor-separator">,</span><span class="IntelliTextEditor-argument">\'datetime\'</span>)</span>'
     },
     {
         'id': '1635158588473',
@@ -42,133 +48,134 @@ var FUNCTIONS = [
         'syntax': 'DATEDIFFMINUTES(datetime, datetime)',
         'type': 'FUNCTION',
         'returnType': 'number',
-        'description': 'Returns the difference between dates in number of minutes'
+        'description': 'Returns the difference between dates in number of minutes',
+        'innerHTML': '<span class="IntelliTextEditor-function">DATEDIFFMINUTES(<span class="IntelliTextEditor-argument">\'datetime\'</span><span class="IntelliTextEditor-separator">,</span><span class="IntelliTextEditor-argument">\'datetime\'</span>)</span>'
     },
-    {
-        'id': '1635158588463',
-        'label': 'Power',
-        'displaySyntax': 'POW',
-        'syntax': 'POW(number, number)',
-        'type': 'FUNCTION',
-        'returnType': 'number',
-        'description': 'Returns the nth (second argument) power of the the number (first argument)'
-    },
-    {
-        'id': '1635158588468',
-        'label': 'Dates Difference',
-        'displaySyntax': 'DATEDIFF',
-        'syntax': 'DATEDIFF(datetime, datetime)',
-        'type': 'FUNCTION',
-        'returnType': 'date',
-        'description': 'Returns the difference betweent dates in Years:Months:Days:Hours:Minutes:Seconds'
-    },
-    {
-        'id': '1635158588474',
-        'label': 'Seconds Difference',
-        'displaySyntax': 'DATEDIFFSECONDS',
-        'syntax': 'DATEDIFFSECONDS(datetime, datetime)',
-        'type': 'FUNCTION',
-        'returnType': 'number',
-        'description': 'Returns the difference between dates in number of seconds'
-    },
-    {
-        'id': '1635158588456',
-        'label': 'Average',
-        'displaySyntax': 'AVG',
-        'syntax': 'AVG(List of Number)',
-        'type': 'FUNCTION',
-        'returnType': 'number',
-        'description': 'Returns the average of the values of a collection.'
-    },
-    {
-        'id': '1635158588458',
-        'label': 'Addition',
-        'displaySyntax': 'SUM',
-        'syntax': 'SUM(List of Number)',
-        'type': 'FUNCTION',
-        'returnType': 'number',
-        'description': 'Returns the sum of all the numbers in the list'
-    },
-    {
-        'id': '1635158588459',
-        'label': 'Subract',
-        'displaySyntax': 'SUBTRACT',
-        'syntax': 'SUBTRACT(number, number)',
-        'type': 'FUNCTION',
-        'returnType': 'number',
-        'description': 'Returns the difference after subtracting second argument from first'
-    },
-    {
-        'id': '1635158588460',
-        'label': 'Product',
-        'displaySyntax': 'PRODUCT',
-        'syntax': 'PRODUCT(List of Number)',
-        'type': 'FUNCTION',
-        'returnType': 'number',
-        'description': 'Returns the product of all the numbers in the list'
-    },
-    {
-        'id': '1635158588461',
-        'label': 'Divide',
-        'displaySyntax': 'DIVIDE',
-        'syntax': 'DIVIDE(number, number)',
-        'type': 'FUNCTION',
-        'returnType': 'number',
-        'description': 'Returns the quoutient after dividing first argument by the second'
-    },
-    {
-        'id': '1635158588462',
-        'label': 'Root',
-        'displaySyntax': 'ROOT',
-        'syntax': 'ROOT(number, number)',
-        'type': 'FUNCTION',
-        'returnType': 'number',
-        'description': 'Returns the nth (second argument) root of the the number (first argument)'
-    },
-    {
-        'id': '1635158588467',
-        'label': 'Format Date',
-        'displaySyntax': 'FORMATDATE',
-        'syntax': 'FORMATDATE(datetime, inFormat, outFormat)',
-        'type': 'FUNCTION',
-        'returnType': 'date',
-        'description': 'Changes the date format of the given date'
-    },
-    {
-        'id': '1635158588472',
-        'label': 'Hours Difference',
-        'displaySyntax': 'DATEDIFFHOURS',
-        'syntax': 'DATEDIFFHOURS(datetime, datetime)',
-        'type': 'FUNCTION',
-        'returnType': 'number',
-        'description': 'Returns the difference between dates in number of hours'
-    },
-    {
-        'id': '1635158588457',
-        'label': 'Count',
-        'displaySyntax': 'COUNT',
-        'syntax': 'COUNT(List of Number)',
-        'type': 'FUNCTION',
-        'returnType': 'number',
-        'description': 'Returns the count of number of values in the list'
-    },
-    {
-        'id': '1635158588465',
-        'label': 'Maximum',
-        'displaySyntax': 'MAX',
-        'syntax': 'MAX(List of Number)',
-        'type': 'FUNCTION',
-        'returnType': 'number',
-        'description': 'Returns the maximum value from the list',
-        'value': ''
-    },
-    {
-        'id': '1635158588466',
-        'label': 'Minimum',
-        'displaySyntax': 'MIN',
-        'syntax': 'MIN(List of Number)',
-        'type': 'FUNCTION',
-        'returnType': 'number',
-        'description': 'Returns the minimum value from the list'
-    }
+    // {
+    //     'id': '1635158588463',
+    //     'label': 'Power',
+    //     'displaySyntax': 'POW',
+    //     'syntax': 'POW(number, number)',
+    //     'type': 'FUNCTION',
+    //     'returnType': 'number',
+    //     'description': 'Returns the nth (second argument) power of the the number (first argument)'
+    // },
+    // {
+    //     'id': '1635158588468',
+    //     'label': 'Dates Difference',
+    //     'displaySyntax': 'DATEDIFF',
+    //     'syntax': 'DATEDIFF(datetime, datetime)',
+    //     'type': 'FUNCTION',
+    //     'returnType': 'date',
+    //     'description': 'Returns the difference betweent dates in Years:Months:Days:Hours:Minutes:Seconds'
+    // },
+    // {
+    //     'id': '1635158588474',
+    //     'label': 'Seconds Difference',
+    //     'displaySyntax': 'DATEDIFFSECONDS',
+    //     'syntax': 'DATEDIFFSECONDS(datetime, datetime)',
+    //     'type': 'FUNCTION',
+    //     'returnType': 'number',
+    //     'description': 'Returns the difference between dates in number of seconds'
+    // },
+    // {
+    //     'id': '1635158588456',
+    //     'label': 'Average',
+    //     'displaySyntax': 'AVG',
+    //     'syntax': 'AVG(List of Number)',
+    //     'type': 'FUNCTION',
+    //     'returnType': 'number',
+    //     'description': 'Returns the average of the values of a collection.'
+    // },
+    // {
+    //     'id': '1635158588458',
+    //     'label': 'Addition',
+    //     'displaySyntax': 'SUM',
+    //     'syntax': 'SUM(List of Number)',
+    //     'type': 'FUNCTION',
+    //     'returnType': 'number',
+    //     'description': 'Returns the sum of all the numbers in the list'
+    // },
+    // {
+    //     'id': '1635158588459',
+    //     'label': 'Subract',
+    //     'displaySyntax': 'SUBTRACT',
+    //     'syntax': 'SUBTRACT(number, number)',
+    //     'type': 'FUNCTION',
+    //     'returnType': 'number',
+    //     'description': 'Returns the difference after subtracting second argument from first'
+    // },
+    // {
+    //     'id': '1635158588460',
+    //     'label': 'Product',
+    //     'displaySyntax': 'PRODUCT',
+    //     'syntax': 'PRODUCT(List of Number)',
+    //     'type': 'FUNCTION',
+    //     'returnType': 'number',
+    //     'description': 'Returns the product of all the numbers in the list'
+    // },
+    // {
+    //     'id': '1635158588461',
+    //     'label': 'Divide',
+    //     'displaySyntax': 'DIVIDE',
+    //     'syntax': 'DIVIDE(number, number)',
+    //     'type': 'FUNCTION',
+    //     'returnType': 'number',
+    //     'description': 'Returns the quoutient after dividing first argument by the second'
+    // },
+    // {
+    //     'id': '1635158588462',
+    //     'label': 'Root',
+    //     'displaySyntax': 'ROOT',
+    //     'syntax': 'ROOT(number, number)',
+    //     'type': 'FUNCTION',
+    //     'returnType': 'number',
+    //     'description': 'Returns the nth (second argument) root of the the number (first argument)'
+    // },
+    // {
+    //     'id': '1635158588467',
+    //     'label': 'Format Date',
+    //     'displaySyntax': 'FORMATDATE',
+    //     'syntax': 'FORMATDATE(datetime, inFormat, outFormat)',
+    //     'type': 'FUNCTION',
+    //     'returnType': 'date',
+    //     'description': 'Changes the date format of the given date'
+    // },
+    // {
+    //     'id': '1635158588472',
+    //     'label': 'Hours Difference',
+    //     'displaySyntax': 'DATEDIFFHOURS',
+    //     'syntax': 'DATEDIFFHOURS(datetime, datetime)',
+    //     'type': 'FUNCTION',
+    //     'returnType': 'number',
+    //     'description': 'Returns the difference between dates in number of hours'
+    // },
+    // {
+    //     'id': '1635158588457',
+    //     'label': 'Count',
+    //     'displaySyntax': 'COUNT',
+    //     'syntax': 'COUNT(List of Number)',
+    //     'type': 'FUNCTION',
+    //     'returnType': 'number',
+    //     'description': 'Returns the count of number of values in the list'
+    // },
+    // {
+    //     'id': '1635158588465',
+    //     'label': 'Maximum',
+    //     'displaySyntax': 'MAX',
+    //     'syntax': 'MAX(List of Number)',
+    //     'type': 'FUNCTION',
+    //     'returnType': 'number',
+    //     'description': 'Returns the maximum value from the list',
+    //     'value': ''
+    // },
+    // {
+    //     'id': '1635158588466',
+    //     'label': 'Minimum',
+    //     'displaySyntax': 'MIN',
+    //     'syntax': 'MIN(List of Number)',
+    //     'type': 'FUNCTION',
+    //     'returnType': 'number',
+    //     'description': 'Returns the minimum value from the list'
+    // }
 ]

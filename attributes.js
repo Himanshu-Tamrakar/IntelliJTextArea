@@ -11,7 +11,7 @@ var ATTRIBUTES = [
         "returnType": "string",
         "storeType": "tempObject",
         "path": "Vip_BFT_RS.Vip_OLI_RS.Coll_3.tempObject.dummy_data.widget.text.alignment",
-        'value': '<span class="IntelliTextEditor-argument">this.tempObject(\'dummy_data.widget.text.alignment\')</span>'
+        "innerHTML": "<span class=\"IntelliTextEditor-argument\">this.tempObject('dummy_data.widget.text.alignment')</span>"
     },
     {
         "id": "B1LX7EYVE5PGH23OMD5R",
@@ -24,7 +24,8 @@ var ATTRIBUTES = [
         "workspaceId": "91817431040120303690",
         "returnType": "number",
         "storeType": "workVar",
-        "path": "Vip_BFT_RS.Vip_OLI_RS.Coll_3.workVar.dummy_data2.image.hOffset"
+        "path": "Vip_BFT_RS.Vip_OLI_RS.Coll_3.workVar.dummy_data2.image.hOffset",
+        "innerHTML": "<span class=\"IntelliTextEditor-argument\">this.workVariable('dummy_data2.image.hOffset')</span>"
     },
     {
         "id": "8GYLD2IV7APMKPBBBZRJ",
@@ -37,7 +38,8 @@ var ATTRIBUTES = [
         "workspaceId": "26314113394031325343",
         "returnType": "string",
         "storeType": "tempObject",
-        "path": "Sha_GD8_RS.Sha_C19_RS.two.tempObject.two.name"
+        "path": "Sha_GD8_RS.Sha_C19_RS.two.tempObject.two.name",
+        "innerHTML": "<span class=\"IntelliTextEditor-argument\">this.tempObject('two.name')</span>"
     },
     {
         "id": "C1IVBNBTW4HGAK87KE4D",
@@ -50,7 +52,8 @@ var ATTRIBUTES = [
         "workspaceId": "91817431040120303690",
         "returnType": "object",
         "storeType": "tempObject",
-        "path": "Vip_BFT_RS.Vip_OLI_RS.Coll_3.tempObject.dummy_data.widget.text"
+        "path": "Vip_BFT_RS.Vip_OLI_RS.Coll_3.tempObject.dummy_data.widget.text",
+        "innerHTML": "<span class=\"IntelliTextEditor-argument\">this.tempObject('dummy_data.widget.text')</span>"
     },
     {
         "id": "43NVI3Z63FDDINSINIBF",
@@ -63,7 +66,8 @@ var ATTRIBUTES = [
         "workspaceId": "91817431040120303690",
         "returnType": "string",
         "storeType": "tempObject",
-        "path": "Vip_BFT_RS.Vip_OLI_RS.Coll_3.tempObject.dummy_data.widget.text.data"
+        "path": "Vip_BFT_RS.Vip_OLI_RS.Coll_3.tempObject.dummy_data.widget.text.data",
+        "innerHTML": "<span class=\"IntelliTextEditor-argument\">this.tempObject('dummy_data.widget.text.data')</span>"
     },
     {
         "id": "NJLAAAAHYUIXD4LKX7X3",
@@ -76,7 +80,8 @@ var ATTRIBUTES = [
         "workspaceId": "91817431040120303690",
         "returnType": "string",
         "storeType": "tempObject",
-        "path": "Vip_BFT_RS.Vip_OLI_RS.Coll_3.tempObject.dummy_data.widget.text.name"
+        "path": "Vip_BFT_RS.Vip_OLI_RS.Coll_3.tempObject.dummy_data.widget.text.name",
+        "innerHTML": "<span class=\"IntelliTextEditor-argument\">this.tempObject('dummy_data.widget.text.name')</span>"
     },
     {
         "id": "A81J1ULQOW8IHDZ7ML4L",
@@ -89,7 +94,8 @@ var ATTRIBUTES = [
         "workspaceId": "91817431040120303690",
         "returnType": "number",
         "storeType": "tempObject",
-        "path": "Vip_BFT_RS.Vip_OLI_RS.Coll_3.tempObject.dummy_data.widget.text.size"
+        "path": "Vip_BFT_RS.Vip_OLI_RS.Coll_3.tempObject.dummy_data.widget.text.size",
+        "innerHTML": "<span class=\"IntelliTextEditor-argument\">this.tempObject('dummy_data.widget.text.size')</span>"
     },
     {
         "id": "BLVMAZ56ZRVPYXDR2HP6",
@@ -102,7 +108,8 @@ var ATTRIBUTES = [
         "workspaceId": "91817431040120303690",
         "returnType": "string",
         "storeType": "tempObject",
-        "path": "Vip_BFT_RS.Vip_OLI_RS.Coll_3.tempObject.dummy_data.widget.text.onMouseUp"
+        "path": "Vip_BFT_RS.Vip_OLI_RS.Coll_3.tempObject.dummy_data.widget.text.onMouseUp",
+        "innerHTML": "<span class=\"IntelliTextEditor-argument\">this.tempObject('dummy_data.widget.text.onMouseUp')</span>"
     },
     {
         "id": "HH2VGF6M9S7TLCKYWGS5",
@@ -115,7 +122,8 @@ var ATTRIBUTES = [
         "workspaceId": "91817431040120303690",
         "returnType": "string",
         "storeType": "workVar",
-        "path": "Vip_BFT_RS.Vip_OLI_RS.Coll_3.workVar.dummy_data2.image.src"
+        "path": "Vip_BFT_RS.Vip_OLI_RS.Coll_3.workVar.dummy_data2.image.src",
+        "innerHTML": "<span class=\"IntelliTextEditor-argument\">this.workVariable('dummy_data2.image.src')</span>"
     },
     {
         "id": "78DLIDZ9UKVOIQMWY87M",
@@ -128,7 +136,8 @@ var ATTRIBUTES = [
         "workspaceId": "91817431040120303690",
         "returnType": "number",
         "storeType": "workVar",
-        "path": "Vip_BFT_RS.Vip_OLI_RS.Coll_3.workVar.dummy_data2.image.vOffset"
+        "path": "Vip_BFT_RS.Vip_OLI_RS.Coll_3.workVar.dummy_data2.image.vOffset",
+        "innerHTML": "<span class=\"IntelliTextEditor-argument\">this.workVariable('dummy_data2.image.vOffset')</span>"
     },
     {
         "id": "3KQP3LZHT76C0JQATKLA",
@@ -141,7 +150,8 @@ var ATTRIBUTES = [
         "workspaceId": "91817431040120303690",
         "returnType": "string",
         "storeType": "tempObject",
-        "path": "Vip_BFT_RS.Vip_OLI_RS.Coll_3.tempObject.dummy_data.widget.text.hello"
+        "path": "Vip_BFT_RS.Vip_OLI_RS.Coll_3.tempObject.dummy_data.widget.text.hello",
+        "innerHTML": "<span class=\"IntelliTextEditor-argument\">this.tempObject('dummy_data.widget.text.hello')</span>"
     },
     {
         "id": "LD0N4L9J1414NHU1AXJS",
@@ -154,7 +164,8 @@ var ATTRIBUTES = [
         "workspaceId": "91817431040120303690",
         "returnType": "string",
         "storeType": "tempObject",
-        "path": "Vip_BFT_RS.Vip_OLI_RS.Coll_3.tempObject.dummy_data.widget.text.style"
+        "path": "Vip_BFT_RS.Vip_OLI_RS.Coll_3.tempObject.dummy_data.widget.text.style",
+        "innerHTML": "<span class=\"IntelliTextEditor-argument\">this.tempObject('dummy_data.widget.text.style')</span>"
     },
     {
         "id": "7EKIFCKCL7OLJ9EOKJN5",
@@ -167,7 +178,8 @@ var ATTRIBUTES = [
         "workspaceId": "91817431040120303690",
         "returnType": "string",
         "storeType": "workVar",
-        "path": "Vip_BFT_RS.Vip_OLI_RS.Coll_3.workVar.dummy_data2.image.alignment"
+        "path": "Vip_BFT_RS.Vip_OLI_RS.Coll_3.workVar.dummy_data2.image.alignment",
+        "innerHTML": "<span class=\"IntelliTextEditor-argument\">this.workVariable('dummy_data2.image.alignment')</span>"
     },
     {
         "id": "B7GKT3OMZJQ61MOS95S5",
@@ -180,7 +192,8 @@ var ATTRIBUTES = [
         "workspaceId": "91817431040120303690",
         "returnType": "object",
         "storeType": "tempObject",
-        "path": "Vip_BFT_RS.Vip_OLI_RS.Coll_3.tempObject.dummy_data.widget"
+        "path": "Vip_BFT_RS.Vip_OLI_RS.Coll_3.tempObject.dummy_data.widget",
+        "innerHTML": "<span class=\"IntelliTextEditor-argument\">this.tempObject('dummy_data.widget')</span>"
     },
     {
         "id": "NEO401SM7IJ6OV1H2ERL",
@@ -193,7 +206,8 @@ var ATTRIBUTES = [
         "workspaceId": "91817431040120303690",
         "returnType": "number",
         "storeType": "tempObject",
-        "path": "Vip_BFT_RS.Vip_OLI_RS.Coll_3.tempObject.dummy_data.widget.text.hOffset"
+        "path": "Vip_BFT_RS.Vip_OLI_RS.Coll_3.tempObject.dummy_data.widget.text.hOffset",
+        "innerHTML": "<span class=\"IntelliTextEditor-argument\">this.tempObject('dummy_data.widget.text.hOffset')</span>"
     },
     {
         "id": "4YK8DDTVOJJZFUIE5EQG",
@@ -206,7 +220,8 @@ var ATTRIBUTES = [
         "workspaceId": "91817431040120303690",
         "returnType": "number",
         "storeType": "tempObject",
-        "path": "Vip_BFT_RS.Vip_OLI_RS.Coll_3.tempObject.dummy_data.widget.text.vOffset"
+        "path": "Vip_BFT_RS.Vip_OLI_RS.Coll_3.tempObject.dummy_data.widget.text.vOffset",
+        "innerHTML": "<span class=\"IntelliTextEditor-argument\">this.tempObject('dummy_data.widget.text.vOffset')</span>"
     },
     {
         "id": "1OSTD0IUV1QATFXDYNB2",
@@ -219,7 +234,8 @@ var ATTRIBUTES = [
         "workspaceId": "91817431040120303690",
         "returnType": "object",
         "storeType": "workVar",
-        "path": "Vip_BFT_RS.Vip_OLI_RS.Coll_3.workVar.dummy_data2.image"
+        "path": "Vip_BFT_RS.Vip_OLI_RS.Coll_3.workVar.dummy_data2.image",
+        "innerHTML": "<span class=\"IntelliTextEditor-argument\">this.workVariable('dummy_data2.image')</span>"
     },
     {
         "id": "QR9I2VL8663I2B2CJLQ1",
@@ -232,6 +248,7 @@ var ATTRIBUTES = [
         "workspaceId": "91817431040120303690",
         "returnType": "string",
         "storeType": "workVar",
-        "path": "Vip_BFT_RS.Vip_OLI_RS.Coll_3.workVar.dummy_data2.image.name"
+        "path": "Vip_BFT_RS.Vip_OLI_RS.Coll_3.workVar.dummy_data2.image.name",
+        "innerHTML": "<span class=\"IntelliTextEditor-argument\">this.workVariable('dummy_data2.image.name')</span>"
     }
 ]
