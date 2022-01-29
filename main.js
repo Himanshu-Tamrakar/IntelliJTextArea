@@ -32,11 +32,13 @@ document.addEventListener('DOMContentLoaded', function () {
     //     console.log(cursor_position(), 'length:', this.textContent.trim().length)
     // }
     var selectedSpan;
+    var target;
 
 
 
     function handleClickEvent(event) {
-        event.prevenDefault();
+        // target = event.target;
+
         console.dir(event.target);
 
         // Can add if not selected near closing bracket otherwise hole funtion get selected
@@ -85,12 +87,17 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function handleKeyUpEvent(event) {
+        const selection = window.getSelection();
+        console.log(selection.anchorNode);
 
         if (event.code.toLowerCase() == 'space') {
-            const span = document.createElement('span');
-            span.textContent = event.key;
 
-            event.parentNode.insertAdjecentHTML('afterend', '<span> </span>')
+            displaySuggestion('*');
+
+            // const span = document.createElement('span');
+            // span.textContent = event.key;
+
+            // event.parentNode.insertAdjecentHTML('afterend', '<span> </span>')
             // const selection = window.getSelection();
             // console.dir(selection);
             // const range = selection.getRangeAt(0);
@@ -113,7 +120,24 @@ document.addEventListener('DOMContentLoaded', function () {
 
         let dummyTag = createDummyTag(selectedOption.innerHTML);
 
-        selectedSpan && selectedSpan.parentNode.replaceChild(dummyTag.firstChild, selectedSpan);
+        if (selectedSpan) {
+            try {
+                selectedSpan.parentNode.replaceChild(dummyTag.firstChild, selectedSpan);
+            } catch (error) {
+                if (error instanceof DOMException) {
+                    console.log('NOT FOUND ERROR');
+                }
+            } finally {
+                selectedSpan = null;
+                return;
+            }
+
+        }
+
+        if (topDiv) {
+            topDiv.appendChild(dummyTag.firstChild);
+            return;
+        }
     }
 
     function createDummyTag(value) {
@@ -126,7 +150,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // /**Handlers */
     topDiv.addEventListener('click', handleClickEvent);
-    topDiv.addEventListener('keydown', handleKeyUpEvent);
+    topDiv.addEventListener('keyup', handleKeyUpEvent);
     suggestionUlElem.addEventListener('click', handleSuggestionClick);
 
 
